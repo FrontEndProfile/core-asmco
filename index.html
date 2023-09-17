@@ -10,13 +10,21 @@
 
 <body>
     <!-- HEADER -->
-    <header>
-        <nav>
+    <header class="bg-gray">
+        <nav class="custom-container">
             <input type="checkbox" id="menuToggle">
-            <a href="#" class="logo">
-                <img src="../asset/images/dummy.png" class="logoImg" alt="Brand_Logo">
-            </a>
+            <div class="menu">
+                <ul>
 
+                    <li >
+                        <a href="about.html">About</a>
+                    </li>
+
+                </ul>
+            </div>
+            <a class="navbar-brand d-lg-none" href="index.html">
+                <img src="images/ASm.CO.png" class="logo">
+            </a>
             <div class="hamburger">
                 <label for="menuToggle">
                     <span></span>
@@ -24,15 +32,23 @@
                     <span></span>
                 </label>
             </div>
-
             <div class="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase ms-0" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item invisible">
+                        <a class="nav-link text-uppercase ms-0" href="blog.html">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase me-0" href="contact.html">Contact</a>
+                    </li>
+
                 </ul>
             </div>
+
         </nav>
     </header>
     <!-- HEADER END -->
